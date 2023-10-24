@@ -130,8 +130,6 @@ if (require("readr")) {
 
 # Step 2: Accuracy and Cohen's Kappa {#sec-step-3-load-dataset-and-description}
 
-Start out with Accuracy and Cohen's Kappa Accuracy
-
 ### Load Dataset
 
 ``` r
@@ -365,7 +363,7 @@ defualter_model_knn <-
 print(defaulter_model_knn)
 ```
 
-### Option 2: Compute the metric yourself using the test dataset 
+### Option 2: Compute the metric yourself using the test dataset
 
 ``` r
 #### Sensitivity and Specificity ----
@@ -392,7 +390,6 @@ plot(roc_curve, main = "ROC Curve for KNN Model", print.auc = TRUE,
 ```
 
 # Step 4: Logarithmic Loss (LogLoss)
-
 
 ### Load the dataset
 
